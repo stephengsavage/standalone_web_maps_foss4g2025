@@ -1368,8 +1368,7 @@
         "line-color": "#e41f18",
         "line-width": 3,
         "line-dasharray": [2, 2]
-      },
-      "layout": {"visibility": "none"}
+      }
     },
     {
       "id": "water_waterway_label",
