@@ -10,7 +10,13 @@
     "te-ara-hura": {
       "type": "geojson",
       "data": "sources/te_ara_hura.geojson"
-    }
+    },
+    "terrain": {
+      "type": "raster-dem",
+      "url": "pmtiles://sources/waiheke_island_terrain.pmtiles",
+      "tileSize": 256,
+      "encoding": "terrarium"
+    },
   },
   "sprite": "https://stephengsavage.github.io/standalone_web_maps_foss4g2025/lib/sprite/light",
   "glyphs": "lib/fonts/{fontstack}/{range}.pbf",
