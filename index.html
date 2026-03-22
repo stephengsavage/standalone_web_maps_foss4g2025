@@ -35,6 +35,15 @@
       center: [175.0709, -36.7990], // Waiheke Island coordinates
       zoom: 12
     });
+
+    // Add navigation controls
+    map.addControl(new maplibregl.NavigationControl(), 'top-right');
+
+    // Add scale bar
+    map.addControl(new maplibregl.ScaleControl({
+      maxWidth: 100,
+      unit: 'metric'
+    }), 'bottom-left');
   </script>
 </body>
 </html>
