@@ -35,6 +35,18 @@
       "paint": {"fill-color": "#e2dfda"}
     },
     {
+      "id": "hillshade",
+      "type": "hillshade",
+      "source": "terrain",
+      "paint": {
+        "hillshade-accent-color": "hsla(0, 0%, 0%, 0.1)",
+        "hillshade-exaggeration": 0.5,
+        "hillshade-highlight-color": "hsla(0, 0%, 100%, 0.1)",
+        "hillshade-illumination-direction": 315,
+        "hillshade-shadow-color": "hsla(0, 0%, 0%, 0.5)"
+      }
+    },  
+    {
       "id": "landcover",
       "type": "fill",
       "source": "protomaps",
